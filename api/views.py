@@ -7,4 +7,5 @@ class NoteViewSet(ModelViewSet):
     serializer_class = serializers.NoteSerializer
     queryset = models.Note.objects.all()
     ordering_fields = ['updated']
+
 # Create your views here.
